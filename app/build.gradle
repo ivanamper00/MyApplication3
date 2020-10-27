@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.botlu.myapplication"
-        minSdkVersion 22
+        minSdkVersion 18
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -66,8 +66,8 @@ dependencies {
     //    implementation("io.coil-kt:coil:0.12.0")
     //    implementation("io.coil-kt:coil-svg:0.12.0")
 //    GlideToVector
-    implementation 'com.github.corouteam:GlideToVectorYou:v2.0.0'
-
+//    implementation 'com.github.corouteam:GlideToVectorYou:v2.0.0'
+    implementation 'com.github.ar-android:AndroidSvgLoader:1.0.2'
     //CardSlider
     implementation 'com.github.IslamKhSh:CardSlider:1.0.1'
 
